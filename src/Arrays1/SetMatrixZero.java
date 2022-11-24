@@ -7,7 +7,7 @@ public class SetMatrixZero {
 Create a Dummy array and traverse the array and if any point i get a[i][j] == 0  mark particular
 d1[i] and d2[j] == 0
 
-Travserse the orginal array and d[i] or d[j] == 0 then matrix[i][j] == 0
+Traverse the original array and d[i] or d[j] == 0 then matrix[i][j] == 0
 
 TC - O(n*m+n*m) SC - O(n*m)
 
@@ -48,7 +48,7 @@ TC - O(n*m+n*m) SC - O(n*m)
     traverse from r,c(1,1) if you encounter 1 then mark corresponding dummy(0,0) array 0
 
     now traverse whole array check [i][o] == 0 and [o][j] == 0
-
+    TC - O(2*(n*m)) SC - O(1)
 */
     public void setZeroes(int[][] matrix) {
 
