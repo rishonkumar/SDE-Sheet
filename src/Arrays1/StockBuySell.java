@@ -18,11 +18,11 @@ public class StockBuySell {
     }
 
     /* TC - O(N)
-	We can maintain a minimum from the starting of the array and
-	compare it with every element of the array, if it is greater than
-	the minimum then take the difference and maintain it in max,
-	otherwise update the minimum.
-	*/
+    We can maintain a minimum from the starting of the array and
+    compare it with every element of the array, if it is greater than
+    the minimum then take the difference and maintain it in max,
+    otherwise update the minimum.
+    */
 
     public int maxProfit(int[] A) {
         int n = A.length;

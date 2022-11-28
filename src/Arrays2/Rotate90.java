@@ -18,11 +18,11 @@ public class Rotate90 {
         return ans;
     }
 
-    	/*
-	TC - O(n2)+O(n2) SC - O(1)
-	Transpose
-	Reverse every row
-	*/
+    /*
+    TC - O(n2)+O(n2) SC - O(1)
+    Transpose
+    Reverse every row
+    */
 
     public void rotate(int[][] M) {
         int n = M.length;

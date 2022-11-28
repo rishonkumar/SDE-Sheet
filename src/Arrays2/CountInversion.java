@@ -1,15 +1,16 @@
 package Arrays2;
 
-public class CountInversion {  /*
+public class CountInversion {
+    /*
 
-        NLOGN
+            NLOGN
 
-        While merging we calculate inversion
-        left side is sorted and right side is also sorted
+            While merging we calculate inversion
+            left side is sorted and right side is also sorted
 
-        if(left side > right side) then we calculate Inversion
-            whatever is left side of that elements will make pairs will j
-    */
+            if(left side > right side) then we calculate Inversion
+                whatever is left side of that elements will make pairs will j
+        */
     public static void main(String[] args) {
 
 //        mergeSort(A, 0, n - 1);
